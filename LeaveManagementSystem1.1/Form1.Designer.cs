@@ -122,6 +122,7 @@
             // 
             // tsLogin
             // 
+            this.tsLogin.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.tsLogin.ForeColor = System.Drawing.Color.Black;
             this.tsLogin.Image = ((System.Drawing.Image)(resources.GetObject("tsLogin.Image")));
             this.tsLogin.ImageTransparentColor = System.Drawing.Color.Black;
