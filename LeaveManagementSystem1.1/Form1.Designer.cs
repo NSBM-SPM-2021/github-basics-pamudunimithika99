@@ -100,13 +100,15 @@
             // 
             // tsMaintenance
             // 
-            this.tsMaintenance.ForeColor = System.Drawing.Color.Black;
+            this.tsMaintenance.BackColor = System.Drawing.Color.Transparent;
+            this.tsMaintenance.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tsMaintenance.ForeColor = System.Drawing.Color.White;
             this.tsMaintenance.Image = ((System.Drawing.Image)(resources.GetObject("tsMaintenance.Image")));
-            this.tsMaintenance.ImageTransparentColor = System.Drawing.Color.Black;
+            this.tsMaintenance.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.tsMaintenance.Name = "tsMaintenance";
-            this.tsMaintenance.Size = new System.Drawing.Size(116, 119);
+            this.tsMaintenance.Size = new System.Drawing.Size(165, 122);
             this.tsMaintenance.Text = "Maintenance";
-            this.tsMaintenance.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsMaintenance.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.tsMaintenance.Click += new System.EventHandler(this.tsMaintenance_Click);
             // 
             // tsUser
