@@ -61,7 +61,7 @@
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(158, 872);
+            this.toolStrip1.Size = new System.Drawing.Size(174, 872);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -71,7 +71,7 @@
             this.tsEmployee.Image = ((System.Drawing.Image)(resources.GetObject("tsEmployee.Image")));
             this.tsEmployee.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsEmployee.Name = "tsEmployee";
-            this.tsEmployee.Size = new System.Drawing.Size(149, 119);
+            this.tsEmployee.Size = new System.Drawing.Size(165, 119);
             this.tsEmployee.Text = "Employees";
             this.tsEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsEmployee.Click += new System.EventHandler(this.tsEmployee_Click);
@@ -111,13 +111,14 @@
             // 
             // tsUser
             // 
-            this.tsUser.ForeColor = System.Drawing.Color.Black;
+            this.tsUser.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tsUser.ForeColor = System.Drawing.Color.White;
             this.tsUser.Image = ((System.Drawing.Image)(resources.GetObject("tsUser.Image")));
-            this.tsUser.ImageTransparentColor = System.Drawing.Color.Black;
+            this.tsUser.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.tsUser.Name = "tsUser";
-            this.tsUser.Size = new System.Drawing.Size(128, 119);
+            this.tsUser.Size = new System.Drawing.Size(165, 122);
             this.tsUser.Text = "Manage Users";
-            this.tsUser.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsUser.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.tsUser.Click += new System.EventHandler(this.tsUser_Click);
             // 
             // tsLogin
