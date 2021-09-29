@@ -125,9 +125,9 @@
             this.tsLogin.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.tsLogin.BackColor = System.Drawing.Color.Transparent;
             this.tsLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.tsLogin.ForeColor = System.Drawing.Color.White;
+            this.tsLogin.ForeColor = System.Drawing.SystemColors.Window;
             this.tsLogin.Image = ((System.Drawing.Image)(resources.GetObject("tsLogin.Image")));
-            this.tsLogin.ImageTransparentColor = System.Drawing.Color.Black;
+            this.tsLogin.ImageTransparentColor = System.Drawing.Color.White;
             this.tsLogin.Name = "tsLogin";
             this.tsLogin.Size = new System.Drawing.Size(149, 119);
             this.tsLogin.Text = "Login";
