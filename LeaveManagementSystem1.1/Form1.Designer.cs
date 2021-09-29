@@ -53,9 +53,9 @@
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(90, 90);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsEmployee,
-            this.tsFind,
             this.tsLeave,
             this.tsMaintenance,
+            this.tsFind,
             this.tsUser,
             this.tsLogin});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
@@ -67,22 +67,24 @@
             // 
             // tsEmployee
             // 
-            this.tsEmployee.ForeColor = System.Drawing.Color.Black;
+            this.tsEmployee.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tsEmployee.ForeColor = System.Drawing.Color.White;
             this.tsEmployee.Image = ((System.Drawing.Image)(resources.GetObject("tsEmployee.Image")));
-            this.tsEmployee.ImageTransparentColor = System.Drawing.Color.Black;
+            this.tsEmployee.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.tsEmployee.Name = "tsEmployee";
-            this.tsEmployee.Size = new System.Drawing.Size(203, 119);
+            this.tsEmployee.Size = new System.Drawing.Size(203, 122);
             this.tsEmployee.Text = "Employees";
             this.tsEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.tsEmployee.Click += new System.EventHandler(this.tsEmployee_Click);
             // 
             // tsFind
             // 
-            this.tsFind.ForeColor = System.Drawing.Color.Black;
+            this.tsFind.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tsFind.ForeColor = System.Drawing.Color.White;
             this.tsFind.Image = ((System.Drawing.Image)(resources.GetObject("tsFind.Image")));
-            this.tsFind.ImageTransparentColor = System.Drawing.Color.Black;
+            this.tsFind.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.tsFind.Name = "tsFind";
-            this.tsFind.Size = new System.Drawing.Size(203, 119);
+            this.tsFind.Size = new System.Drawing.Size(203, 122);
             this.tsFind.Text = "Find Employees";
             this.tsFind.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.tsFind.Click += new System.EventHandler(this.tsFind_Click);
@@ -168,7 +170,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(177, 14);
+            this.groupBox1.Location = new System.Drawing.Point(252, 14);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
