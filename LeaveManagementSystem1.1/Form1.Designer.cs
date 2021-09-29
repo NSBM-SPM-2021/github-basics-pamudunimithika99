@@ -124,15 +124,15 @@
             // 
             this.tsLogin.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.tsLogin.BackColor = System.Drawing.Color.Transparent;
-            this.tsLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tsLogin.BackgroundImage")));
             this.tsLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.tsLogin.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsLogin.ForeColor = System.Drawing.SystemColors.Window;
             this.tsLogin.Image = ((System.Drawing.Image)(resources.GetObject("tsLogin.Image")));
-            this.tsLogin.ImageTransparentColor = System.Drawing.Color.Black;
+            this.tsLogin.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.tsLogin.Margin = new System.Windows.Forms.Padding(0, 3, 0, 4);
             this.tsLogin.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.tsLogin.Name = "tsLogin";
-            this.tsLogin.Size = new System.Drawing.Size(149, 119);
+            this.tsLogin.Size = new System.Drawing.Size(149, 127);
             this.tsLogin.Text = "Login";
             this.tsLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.tsLogin.Click += new System.EventHandler(this.tsLogin_Click);
