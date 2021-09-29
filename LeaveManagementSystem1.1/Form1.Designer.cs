@@ -126,7 +126,7 @@
             this.tsLogin.Image = ((System.Drawing.Image)(resources.GetObject("tsLogin.Image")));
             this.tsLogin.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsLogin.Name = "tsLogin";
-            this.tsLogin.Size = new System.Drawing.Size(94, 119);
+            this.tsLogin.Size = new System.Drawing.Size(149, 119);
             this.tsLogin.Text = "Login";
             this.tsLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsLogin.Click += new System.EventHandler(this.tsLogin_Click);
