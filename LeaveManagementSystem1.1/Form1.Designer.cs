@@ -58,9 +58,10 @@
             this.tsMaintenance,
             this.tsUser,
             this.tsLogin});
-            this.toolStrip1.Location = new System.Drawing.Point(392, 9);
+            this.toolStrip1.Location = new System.Drawing.Point(65, 28);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(607, 112);
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
+            this.toolStrip1.Size = new System.Drawing.Size(741, 124);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -68,9 +69,9 @@
             // 
             this.tsEmployee.ForeColor = System.Drawing.Color.Black;
             this.tsEmployee.Image = ((System.Drawing.Image)(resources.GetObject("tsEmployee.Image")));
-            this.tsEmployee.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsEmployee.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsEmployee.Name = "tsEmployee";
-            this.tsEmployee.Size = new System.Drawing.Size(94, 109);
+            this.tsEmployee.Size = new System.Drawing.Size(102, 119);
             this.tsEmployee.Text = "Employees";
             this.tsEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsEmployee.Click += new System.EventHandler(this.tsEmployee_Click);
@@ -79,9 +80,9 @@
             // 
             this.tsFind.ForeColor = System.Drawing.Color.Black;
             this.tsFind.Image = ((System.Drawing.Image)(resources.GetObject("tsFind.Image")));
-            this.tsFind.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsFind.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsFind.Name = "tsFind";
-            this.tsFind.Size = new System.Drawing.Size(94, 109);
+            this.tsFind.Size = new System.Drawing.Size(141, 119);
             this.tsFind.Text = "Find Employees";
             this.tsFind.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsFind.Click += new System.EventHandler(this.tsFind_Click);
@@ -90,9 +91,9 @@
             // 
             this.tsLeave.ForeColor = System.Drawing.Color.Black;
             this.tsLeave.Image = ((System.Drawing.Image)(resources.GetObject("tsLeave.Image")));
-            this.tsLeave.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsLeave.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsLeave.Name = "tsLeave";
-            this.tsLeave.Size = new System.Drawing.Size(103, 109);
+            this.tsLeave.Size = new System.Drawing.Size(154, 119);
             this.tsLeave.Text = "Leave of Absence";
             this.tsLeave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsLeave.Click += new System.EventHandler(this.tsLeave_Click);
@@ -101,9 +102,9 @@
             // 
             this.tsMaintenance.ForeColor = System.Drawing.Color.Black;
             this.tsMaintenance.Image = ((System.Drawing.Image)(resources.GetObject("tsMaintenance.Image")));
-            this.tsMaintenance.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsMaintenance.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsMaintenance.Name = "tsMaintenance";
-            this.tsMaintenance.Size = new System.Drawing.Size(94, 109);
+            this.tsMaintenance.Size = new System.Drawing.Size(116, 119);
             this.tsMaintenance.Text = "Maintenance";
             this.tsMaintenance.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsMaintenance.Click += new System.EventHandler(this.tsMaintenance_Click);
@@ -112,9 +113,9 @@
             // 
             this.tsUser.ForeColor = System.Drawing.Color.Black;
             this.tsUser.Image = ((System.Drawing.Image)(resources.GetObject("tsUser.Image")));
-            this.tsUser.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsUser.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsUser.Name = "tsUser";
-            this.tsUser.Size = new System.Drawing.Size(94, 109);
+            this.tsUser.Size = new System.Drawing.Size(128, 119);
             this.tsUser.Text = "Manage Users";
             this.tsUser.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsUser.Click += new System.EventHandler(this.tsUser_Click);
@@ -123,9 +124,9 @@
             // 
             this.tsLogin.ForeColor = System.Drawing.Color.Black;
             this.tsLogin.Image = ((System.Drawing.Image)(resources.GetObject("tsLogin.Image")));
-            this.tsLogin.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsLogin.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsLogin.Name = "tsLogin";
-            this.tsLogin.Size = new System.Drawing.Size(94, 109);
+            this.tsLogin.Size = new System.Drawing.Size(94, 119);
             this.tsLogin.Text = "Login";
             this.tsLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsLogin.Click += new System.EventHandler(this.tsLogin_Click);
@@ -137,10 +138,11 @@
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.LightCyan;
-            this.label1.Location = new System.Drawing.Point(3, 73);
+            this.label1.Location = new System.Drawing.Point(5, 107);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label1.Size = new System.Drawing.Size(131, 54);
+            this.label1.Size = new System.Drawing.Size(194, 79);
             this.label1.TabIndex = 1;
             this.label1.Text = "Time";
             // 
@@ -156,12 +158,14 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(669, 139);
+            this.groupBox1.Location = new System.Drawing.Point(65, 230);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(330, 134);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.groupBox1.Size = new System.Drawing.Size(605, 206);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Date and Time";
+            this.groupBox1.Text = "Date ";
             // 
             // label2
             // 
@@ -170,24 +174,27 @@
             this.label2.Dock = System.Windows.Forms.DockStyle.Top;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.LightCyan;
-            this.label2.Location = new System.Drawing.Point(3, 19);
+            this.label2.Location = new System.Drawing.Point(5, 28);
+            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(126, 54);
+            this.label2.Size = new System.Drawing.Size(186, 79);
             this.label2.TabIndex = 2;
             this.label2.Text = "Date";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1010, 567);
+            this.ClientSize = new System.Drawing.Size(1852, 872);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.toolStrip1);
+            this.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Leave Management System | Main";
