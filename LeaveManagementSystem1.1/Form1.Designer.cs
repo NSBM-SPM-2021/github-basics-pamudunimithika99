@@ -128,7 +128,9 @@
             this.tsLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.tsLogin.ForeColor = System.Drawing.SystemColors.Window;
             this.tsLogin.Image = ((System.Drawing.Image)(resources.GetObject("tsLogin.Image")));
-            this.tsLogin.ImageTransparentColor = System.Drawing.Color.Chartreuse;
+            this.tsLogin.ImageTransparentColor = System.Drawing.Color.Black;
+            this.tsLogin.Margin = new System.Windows.Forms.Padding(0, 3, 0, 4);
+            this.tsLogin.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.tsLogin.Name = "tsLogin";
             this.tsLogin.Size = new System.Drawing.Size(149, 119);
             this.tsLogin.Text = "Login";
