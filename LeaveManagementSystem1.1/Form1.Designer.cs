@@ -73,7 +73,7 @@
             this.tsEmployee.Name = "tsEmployee";
             this.tsEmployee.Size = new System.Drawing.Size(203, 119);
             this.tsEmployee.Text = "Employees";
-            this.tsEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.tsEmployee.Click += new System.EventHandler(this.tsEmployee_Click);
             // 
             // tsFind
@@ -82,9 +82,9 @@
             this.tsFind.Image = ((System.Drawing.Image)(resources.GetObject("tsFind.Image")));
             this.tsFind.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsFind.Name = "tsFind";
-            this.tsFind.Size = new System.Drawing.Size(141, 119);
+            this.tsFind.Size = new System.Drawing.Size(203, 119);
             this.tsFind.Text = "Find Employees";
-            this.tsFind.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsFind.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.tsFind.Click += new System.EventHandler(this.tsFind_Click);
             // 
             // tsLeave
@@ -107,7 +107,7 @@
             this.tsMaintenance.Image = ((System.Drawing.Image)(resources.GetObject("tsMaintenance.Image")));
             this.tsMaintenance.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.tsMaintenance.Name = "tsMaintenance";
-            this.tsMaintenance.Size = new System.Drawing.Size(165, 122);
+            this.tsMaintenance.Size = new System.Drawing.Size(203, 122);
             this.tsMaintenance.Text = "Maintenance";
             this.tsMaintenance.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.tsMaintenance.Click += new System.EventHandler(this.tsMaintenance_Click);
@@ -119,7 +119,7 @@
             this.tsUser.Image = ((System.Drawing.Image)(resources.GetObject("tsUser.Image")));
             this.tsUser.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.tsUser.Name = "tsUser";
-            this.tsUser.Size = new System.Drawing.Size(165, 122);
+            this.tsUser.Size = new System.Drawing.Size(203, 122);
             this.tsUser.Text = "Manage Users";
             this.tsUser.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.tsUser.Click += new System.EventHandler(this.tsUser_Click);
@@ -136,7 +136,7 @@
             this.tsLogin.Margin = new System.Windows.Forms.Padding(0, 3, 0, 4);
             this.tsLogin.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.tsLogin.Name = "tsLogin";
-            this.tsLogin.Size = new System.Drawing.Size(149, 127);
+            this.tsLogin.Size = new System.Drawing.Size(203, 127);
             this.tsLogin.Text = "Login";
             this.tsLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.tsLogin.Click += new System.EventHandler(this.tsLogin_Click);
