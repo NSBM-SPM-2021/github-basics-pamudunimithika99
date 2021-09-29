@@ -67,6 +67,7 @@
             // 
             // tsEmployee
             // 
+            this.tsEmployee.BackColor = System.Drawing.Color.Transparent;
             this.tsEmployee.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsEmployee.ForeColor = System.Drawing.Color.White;
             this.tsEmployee.Image = ((System.Drawing.Image)(resources.GetObject("tsEmployee.Image")));
@@ -128,7 +129,6 @@
             // 
             // tsLogin
             // 
-            this.tsLogin.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.tsLogin.BackColor = System.Drawing.Color.Transparent;
             this.tsLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.tsLogin.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -170,7 +170,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(252, 14);
+            this.groupBox1.Location = new System.Drawing.Point(327, 14);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
