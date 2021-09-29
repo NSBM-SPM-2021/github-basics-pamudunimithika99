@@ -123,13 +123,14 @@
             // tsLogin
             // 
             this.tsLogin.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.tsLogin.ForeColor = System.Drawing.Color.Black;
+            this.tsLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.tsLogin.ForeColor = System.Drawing.Color.White;
             this.tsLogin.Image = ((System.Drawing.Image)(resources.GetObject("tsLogin.Image")));
-            this.tsLogin.ImageTransparentColor = System.Drawing.Color.Black;
+            this.tsLogin.ImageTransparentColor = System.Drawing.Color.White;
             this.tsLogin.Name = "tsLogin";
             this.tsLogin.Size = new System.Drawing.Size(149, 119);
             this.tsLogin.Text = "Login";
-            this.tsLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.tsLogin.Click += new System.EventHandler(this.tsLogin_Click);
             // 
             // label1
