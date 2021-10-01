@@ -84,6 +84,7 @@
             this.dtgemplist.AllowUserToResizeColumns = false;
             this.dtgemplist.AllowUserToResizeRows = false;
             this.dtgemplist.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dtgemplist.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dtgemplist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgemplist.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgemplist.Location = new System.Drawing.Point(9, 88);
@@ -142,13 +143,15 @@
             // 
             // btnPrintStud
             // 
+            this.btnPrintStud.BackColor = System.Drawing.SystemColors.Menu;
+            this.btnPrintStud.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrintStud.Location = new System.Drawing.Point(18, 700);
             this.btnPrintStud.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPrintStud.Name = "btnPrintStud";
             this.btnPrintStud.Size = new System.Drawing.Size(166, 49);
             this.btnPrintStud.TabIndex = 58;
             this.btnPrintStud.Text = "Print Leave";
-            this.btnPrintStud.UseVisualStyleBackColor = true;
+            this.btnPrintStud.UseVisualStyleBackColor = false;
             this.btnPrintStud.Click += new System.EventHandler(this.btnPrintStud_Click);
             // 
             // btnPrintAll
