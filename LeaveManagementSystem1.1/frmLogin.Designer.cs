@@ -51,6 +51,7 @@
             // 
             // OK
             // 
+            this.OK.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OK.Location = new System.Drawing.Point(314, 266);
             this.OK.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.OK.Name = "OK";
