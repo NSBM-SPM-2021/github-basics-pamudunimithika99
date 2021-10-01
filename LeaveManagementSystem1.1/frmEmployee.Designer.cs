@@ -530,9 +530,9 @@
             // emptitle
             // 
             this.emptitle.AutoSize = true;
-            this.emptitle.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.emptitle.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.emptitle.Font = new System.Drawing.Font("Arial Black", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emptitle.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.emptitle.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.emptitle.Location = new System.Drawing.Point(18, 6);
             this.emptitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.emptitle.Name = "emptitle";
