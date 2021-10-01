@@ -251,8 +251,8 @@
             // 
             // btndeptUpdate
             // 
-            this.btndeptUpdate.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btndeptUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndeptUpdate.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btndeptUpdate.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndeptUpdate.Location = new System.Drawing.Point(388, 242);
             this.btndeptUpdate.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btndeptUpdate.Name = "btndeptUpdate";
