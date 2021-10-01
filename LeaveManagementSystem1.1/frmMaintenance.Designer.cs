@@ -92,8 +92,8 @@
             // 
             // btnpositionload
             // 
-            this.btnpositionload.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnpositionload.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnpositionload.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnpositionload.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpositionload.Location = new System.Drawing.Point(356, 168);
             this.btnpositionload.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btnpositionload.Name = "btnpositionload";
@@ -124,8 +124,8 @@
             // 
             // npositiondelete
             // 
-            this.npositiondelete.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.npositiondelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.npositiondelete.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.npositiondelete.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.npositiondelete.Location = new System.Drawing.Point(356, 315);
             this.npositiondelete.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.npositiondelete.Name = "npositiondelete";
@@ -137,8 +137,8 @@
             // 
             // npositionupdate
             // 
-            this.npositionupdate.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.npositionupdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.npositionupdate.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.npositionupdate.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.npositionupdate.Location = new System.Drawing.Point(356, 242);
             this.npositionupdate.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.npositionupdate.Name = "npositionupdate";
@@ -150,8 +150,8 @@
             // 
             // npositionsave
             // 
-            this.npositionsave.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.npositionsave.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.npositionsave.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.npositionsave.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.npositionsave.Location = new System.Drawing.Point(356, 94);
             this.npositionsave.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.npositionsave.Name = "npositionsave";
