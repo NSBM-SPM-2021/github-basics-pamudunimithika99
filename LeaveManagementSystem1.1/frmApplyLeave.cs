@@ -194,5 +194,10 @@ namespace LeaveManagementSystem1._1
             Form frm = new  frmHistory();
             frm.ShowDialog();
         }
+
+        private void Label12_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
