@@ -264,8 +264,8 @@
             // 
             // btndeptSave
             // 
-            this.btndeptSave.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btndeptSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndeptSave.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btndeptSave.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndeptSave.Location = new System.Drawing.Point(388, 94);
             this.btndeptSave.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btndeptSave.Name = "btndeptSave";
