@@ -106,11 +106,12 @@
             // 
             // LogoPictureBox
             // 
+            this.LogoPictureBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LogoPictureBox.BackgroundImage")));
             this.LogoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("LogoPictureBox.Image")));
-            this.LogoPictureBox.Location = new System.Drawing.Point(18, 18);
+            this.LogoPictureBox.Location = new System.Drawing.Point(32, 38);
             this.LogoPictureBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LogoPictureBox.Name = "LogoPictureBox";
-            this.LogoPictureBox.Size = new System.Drawing.Size(248, 297);
+            this.LogoPictureBox.Size = new System.Drawing.Size(216, 216);
             this.LogoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.LogoPictureBox.TabIndex = 7;
             this.LogoPictureBox.TabStop = false;
