@@ -114,6 +114,7 @@
             this.AcceptButton = this.OK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(640, 346);
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.OK);
