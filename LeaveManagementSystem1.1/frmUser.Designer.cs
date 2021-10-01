@@ -84,12 +84,12 @@
             // 
             // tstripList
             // 
+            this.tstripList.BackColor = System.Drawing.Color.Transparent;
             this.tstripList.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tstripList.BackgroundImage")));
             this.tstripList.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tstripList.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tstripList.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tstripList.Image = ((System.Drawing.Image)(resources.GetObject("tstripList.Image")));
-            this.tstripList.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tstripList.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.tstripList.Name = "tstripList";
             this.tstripList.Size = new System.Drawing.Size(34, 52);
             this.tstripList.Text = "List";
@@ -101,7 +101,6 @@
             this.tstripAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tstripAdd.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tstripAdd.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tstripAdd.Image = ((System.Drawing.Image)(resources.GetObject("tstripAdd.Image")));
             this.tstripAdd.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tstripAdd.Name = "tstripAdd";
             this.tstripAdd.Size = new System.Drawing.Size(34, 52);
@@ -439,6 +438,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(938, 654);
             this.Controls.Add(this.ToolStrip1);
             this.Controls.Add(this.Panel1);
