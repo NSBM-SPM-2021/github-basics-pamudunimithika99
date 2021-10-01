@@ -537,11 +537,11 @@
             this.GroupBox4.Controls.Add(this.dtpNotfallWeekened);
             this.GroupBox4.Controls.Add(this.txtnoDays);
             this.GroupBox4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GroupBox4.Location = new System.Drawing.Point(30, 578);
+            this.GroupBox4.Location = new System.Drawing.Point(39, 591);
             this.GroupBox4.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.GroupBox4.Name = "GroupBox4";
             this.GroupBox4.Padding = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.GroupBox4.Size = new System.Drawing.Size(1110, 143);
+            this.GroupBox4.Size = new System.Drawing.Size(1110, 140);
             this.GroupBox4.TabIndex = 45;
             this.GroupBox4.TabStop = false;
             this.GroupBox4.Tag = "Reasons";
@@ -557,8 +557,9 @@
             // 
             // Label12
             // 
-            this.Label12.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Label12.BackColor = System.Drawing.SystemColors.WindowText;
             this.Label12.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label12.ForeColor = System.Drawing.SystemColors.Window;
             this.Label12.Location = new System.Drawing.Point(18, 6);
             this.Label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label12.Name = "Label12";
