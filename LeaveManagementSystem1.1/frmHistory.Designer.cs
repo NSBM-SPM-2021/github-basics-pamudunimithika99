@@ -82,11 +82,12 @@
             // Label7
             // 
             this.Label7.AutoSize = true;
-            this.Label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label7.Location = new System.Drawing.Point(874, 54);
+            this.Label7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Label7.Font = new System.Drawing.Font("Arial Black", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label7.Location = new System.Drawing.Point(853, 39);
             this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(86, 25);
+            this.Label7.Size = new System.Drawing.Size(114, 31);
             this.Label7.TabIndex = 64;
             this.Label7.Text = "Search :";
             // 
@@ -168,6 +169,7 @@
             this.dtgapprovedlist.AllowUserToResizeRows = false;
             this.dtgapprovedlist.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dtgapprovedlist.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dtgapprovedlist.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dtgapprovedlist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgapprovedlist.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtgapprovedlist.Location = new System.Drawing.Point(8, 98);
