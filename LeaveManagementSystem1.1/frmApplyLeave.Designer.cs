@@ -594,13 +594,15 @@
             // 
             // btn_new
             // 
+            this.btn_new.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btn_new.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_new.Location = new System.Drawing.Point(202, 742);
             this.btn_new.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_new.Name = "btn_new";
             this.btn_new.Size = new System.Drawing.Size(154, 40);
             this.btn_new.TabIndex = 49;
             this.btn_new.Text = "New";
-            this.btn_new.UseVisualStyleBackColor = true;
+            this.btn_new.UseVisualStyleBackColor = false;
             this.btn_new.Click += new System.EventHandler(this.btn_new_Click);
             // 
             // btnHistory
