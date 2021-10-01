@@ -96,5 +96,10 @@ namespace LeaveManagementSystem1._1
                 disabled_menu();
             }
         }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
