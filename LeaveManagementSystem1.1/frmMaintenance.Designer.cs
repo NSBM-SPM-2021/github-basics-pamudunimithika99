@@ -238,8 +238,8 @@
             // 
             // btndeptDelete
             // 
-            this.btndeptDelete.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btndeptDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndeptDelete.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btndeptDelete.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndeptDelete.Location = new System.Drawing.Point(388, 315);
             this.btndeptDelete.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btndeptDelete.Name = "btndeptDelete";
