@@ -303,6 +303,7 @@
             // 
             // GroupBox10
             // 
+            this.GroupBox10.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.GroupBox10.Controls.Add(this.cbowtype);
             this.GroupBox10.Controls.Add(this.Label3);
             this.GroupBox10.Controls.Add(this.cbodeaprtment);
@@ -481,7 +482,7 @@
             // 
             // GroupBox9
             // 
-            this.GroupBox9.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.GroupBox9.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.GroupBox9.Controls.Add(this.txtcode);
             this.GroupBox9.Controls.Add(this.Label20);
             this.GroupBox9.Controls.Add(this.txtbplace);
@@ -541,35 +542,41 @@
             // 
             // btnSave
             // 
+            this.btnSave.BackColor = System.Drawing.SystemColors.Info;
+            this.btnSave.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Location = new System.Drawing.Point(20, 665);
             this.btnSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(98, 45);
             this.btnSave.TabIndex = 40;
             this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnClear
             // 
+            this.btnClear.BackColor = System.Drawing.SystemColors.Info;
+            this.btnClear.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.Location = new System.Drawing.Point(126, 665);
             this.btnClear.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(98, 45);
             this.btnClear.TabIndex = 41;
             this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnClose
             // 
+            this.btnClose.BackColor = System.Drawing.SystemColors.Info;
+            this.btnClose.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Location = new System.Drawing.Point(236, 665);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(98, 45);
             this.btnClose.TabIndex = 42;
             this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // frmEmployee
