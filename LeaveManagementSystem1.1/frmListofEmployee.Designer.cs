@@ -156,13 +156,15 @@
             // 
             // btnPrintAll
             // 
+            this.btnPrintAll.BackColor = System.Drawing.SystemColors.Menu;
+            this.btnPrintAll.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrintAll.Location = new System.Drawing.Point(194, 700);
             this.btnPrintAll.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPrintAll.Name = "btnPrintAll";
             this.btnPrintAll.Size = new System.Drawing.Size(180, 49);
             this.btnPrintAll.TabIndex = 59;
             this.btnPrintAll.Text = "Print All";
-            this.btnPrintAll.UseVisualStyleBackColor = true;
+            this.btnPrintAll.UseVisualStyleBackColor = false;
             this.btnPrintAll.Click += new System.EventHandler(this.btnPrintAll_Click);
             // 
             // frmListofEmployee
