@@ -41,16 +41,20 @@
             // 
             // Cancel
             // 
+            this.Cancel.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.Cancel.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cancel.Location = new System.Drawing.Point(468, 266);
             this.Cancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Cancel.Name = "Cancel";
             this.Cancel.Size = new System.Drawing.Size(141, 35);
             this.Cancel.TabIndex = 12;
             this.Cancel.Text = "&Cancel";
+            this.Cancel.UseVisualStyleBackColor = false;
             // 
             // OK
             // 
+            this.OK.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.OK.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OK.Location = new System.Drawing.Point(314, 266);
             this.OK.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -58,6 +62,7 @@
             this.OK.Size = new System.Drawing.Size(141, 35);
             this.OK.TabIndex = 11;
             this.OK.Text = "&OK";
+            this.OK.UseVisualStyleBackColor = false;
             this.OK.Click += new System.EventHandler(this.OK_Click);
             // 
             // PasswordTextBox
