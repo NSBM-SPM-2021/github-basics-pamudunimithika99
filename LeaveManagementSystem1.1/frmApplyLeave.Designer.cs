@@ -607,13 +607,15 @@
             // 
             // btnHistory
             // 
+            this.btnHistory.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnHistory.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHistory.Location = new System.Drawing.Point(366, 742);
             this.btnHistory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnHistory.Name = "btnHistory";
             this.btnHistory.Size = new System.Drawing.Size(154, 40);
             this.btnHistory.TabIndex = 50;
             this.btnHistory.Text = "History";
-            this.btnHistory.UseVisualStyleBackColor = true;
+            this.btnHistory.UseVisualStyleBackColor = false;
             this.btnHistory.Click += new System.EventHandler(this.btnHistory_Click);
             // 
             // frmApplyLeave
