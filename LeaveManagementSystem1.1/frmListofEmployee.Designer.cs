@@ -45,7 +45,7 @@
             // Label7
             // 
             this.Label7.AutoSize = true;
-            this.Label7.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.Label7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.Label7.Font = new System.Drawing.Font("Arial Black", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label7.Location = new System.Drawing.Point(18, 6);
             this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
