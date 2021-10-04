@@ -56,7 +56,7 @@
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(1852, 124);
+            this.toolStrip1.Size = new System.Drawing.Size(1852, 117);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
@@ -69,7 +69,7 @@
             this.tsEmployee.Image = ((System.Drawing.Image)(resources.GetObject("tsEmployee.Image")));
             this.tsEmployee.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.tsEmployee.Name = "tsEmployee";
-            this.tsEmployee.Size = new System.Drawing.Size(133, 119);
+            this.tsEmployee.Size = new System.Drawing.Size(133, 112);
             this.tsEmployee.Text = "Employees";
             this.tsEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.tsEmployee.Click += new System.EventHandler(this.tsEmployee_Click);
@@ -134,9 +134,8 @@
             this.tsLogin.Margin = new System.Windows.Forms.Padding(0, 3, 0, 4);
             this.tsLogin.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.tsLogin.Name = "tsLogin";
-            this.tsLogin.Size = new System.Drawing.Size(203, 127);
+            this.tsLogin.Size = new System.Drawing.Size(171, 110);
             this.tsLogin.Text = "Login";
-            this.tsLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.tsLogin.Click += new System.EventHandler(this.tsLogin_Click);
             // 
             // timer1
