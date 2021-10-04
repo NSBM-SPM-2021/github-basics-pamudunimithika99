@@ -81,9 +81,9 @@
             this.tsLeave.Image = ((System.Drawing.Image)(resources.GetObject("tsLeave.Image")));
             this.tsLeave.ImageTransparentColor = System.Drawing.Color.White;
             this.tsLeave.Name = "tsLeave";
-            this.tsLeave.Size = new System.Drawing.Size(203, 122);
+            this.tsLeave.Size = new System.Drawing.Size(208, 119);
             this.tsLeave.Text = "Leave of Absence";
-            this.tsLeave.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.tsLeave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsLeave.Click += new System.EventHandler(this.tsLeave_Click);
             // 
             // tsMaintenance
