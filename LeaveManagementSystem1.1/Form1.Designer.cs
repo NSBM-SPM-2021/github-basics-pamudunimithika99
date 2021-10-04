@@ -44,6 +44,7 @@
             // toolStrip1
             // 
             this.toolStrip1.BackColor = System.Drawing.Color.Transparent;
+            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Left;
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(80, 80);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -56,7 +57,7 @@
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(1852, 117);
+            this.toolStrip1.Size = new System.Drawing.Size(212, 872);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
@@ -69,9 +70,9 @@
             this.tsEmployee.Image = ((System.Drawing.Image)(resources.GetObject("tsEmployee.Image")));
             this.tsEmployee.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.tsEmployee.Name = "tsEmployee";
-            this.tsEmployee.Size = new System.Drawing.Size(133, 112);
+            this.tsEmployee.Size = new System.Drawing.Size(203, 112);
             this.tsEmployee.Text = "Employees";
-            this.tsEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.tsEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsEmployee.Click += new System.EventHandler(this.tsEmployee_Click);
             // 
             // tsLeave
@@ -81,7 +82,7 @@
             this.tsLeave.Image = ((System.Drawing.Image)(resources.GetObject("tsLeave.Image")));
             this.tsLeave.ImageTransparentColor = System.Drawing.Color.White;
             this.tsLeave.Name = "tsLeave";
-            this.tsLeave.Size = new System.Drawing.Size(208, 119);
+            this.tsLeave.Size = new System.Drawing.Size(203, 112);
             this.tsLeave.Text = "Leave of Absence";
             this.tsLeave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsLeave.Click += new System.EventHandler(this.tsLeave_Click);
@@ -94,9 +95,9 @@
             this.tsMaintenance.Image = ((System.Drawing.Image)(resources.GetObject("tsMaintenance.Image")));
             this.tsMaintenance.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.tsMaintenance.Name = "tsMaintenance";
-            this.tsMaintenance.Size = new System.Drawing.Size(203, 122);
+            this.tsMaintenance.Size = new System.Drawing.Size(203, 112);
             this.tsMaintenance.Text = "Maintenance";
-            this.tsMaintenance.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.tsMaintenance.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsMaintenance.Click += new System.EventHandler(this.tsMaintenance_Click);
             // 
             // tsFind
@@ -106,7 +107,7 @@
             this.tsFind.Image = ((System.Drawing.Image)(resources.GetObject("tsFind.Image")));
             this.tsFind.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.tsFind.Name = "tsFind";
-            this.tsFind.Size = new System.Drawing.Size(186, 119);
+            this.tsFind.Size = new System.Drawing.Size(203, 112);
             this.tsFind.Text = "Find Employees";
             this.tsFind.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsFind.Click += new System.EventHandler(this.tsFind_Click);
@@ -118,9 +119,9 @@
             this.tsUser.Image = ((System.Drawing.Image)(resources.GetObject("tsUser.Image")));
             this.tsUser.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.tsUser.Name = "tsUser";
-            this.tsUser.Size = new System.Drawing.Size(203, 122);
+            this.tsUser.Size = new System.Drawing.Size(203, 112);
             this.tsUser.Text = "Manage Users";
-            this.tsUser.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.tsUser.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsUser.Click += new System.EventHandler(this.tsUser_Click);
             // 
             // tsLogin
@@ -134,8 +135,9 @@
             this.tsLogin.Margin = new System.Windows.Forms.Padding(0, 3, 0, 4);
             this.tsLogin.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.tsLogin.Name = "tsLogin";
-            this.tsLogin.Size = new System.Drawing.Size(171, 110);
+            this.tsLogin.Size = new System.Drawing.Size(203, 117);
             this.tsLogin.Text = "Login";
+            this.tsLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsLogin.Click += new System.EventHandler(this.tsLogin_Click);
             // 
             // timer1
