@@ -106,9 +106,9 @@
             this.tsFind.Image = ((System.Drawing.Image)(resources.GetObject("tsFind.Image")));
             this.tsFind.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.tsFind.Name = "tsFind";
-            this.tsFind.Size = new System.Drawing.Size(203, 122);
+            this.tsFind.Size = new System.Drawing.Size(186, 119);
             this.tsFind.Text = "Find Employees";
-            this.tsFind.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.tsFind.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsFind.Click += new System.EventHandler(this.tsFind_Click);
             // 
             // tsUser
