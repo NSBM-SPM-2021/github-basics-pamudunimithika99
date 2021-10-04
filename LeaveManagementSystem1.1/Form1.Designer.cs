@@ -64,7 +64,7 @@
             // 
             // tsEmployee
             // 
-            this.tsEmployee.BackColor = System.Drawing.Color.Transparent;
+            this.tsEmployee.BackColor = System.Drawing.Color.Black;
             this.tsEmployee.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsEmployee.ForeColor = System.Drawing.Color.White;
             this.tsEmployee.Image = ((System.Drawing.Image)(resources.GetObject("tsEmployee.Image")));
@@ -77,6 +77,7 @@
             // 
             // tsLeave
             // 
+            this.tsLeave.BackColor = System.Drawing.Color.Black;
             this.tsLeave.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsLeave.ForeColor = System.Drawing.Color.White;
             this.tsLeave.Image = ((System.Drawing.Image)(resources.GetObject("tsLeave.Image")));
@@ -89,7 +90,7 @@
             // 
             // tsMaintenance
             // 
-            this.tsMaintenance.BackColor = System.Drawing.Color.Transparent;
+            this.tsMaintenance.BackColor = System.Drawing.Color.Black;
             this.tsMaintenance.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsMaintenance.ForeColor = System.Drawing.Color.White;
             this.tsMaintenance.Image = ((System.Drawing.Image)(resources.GetObject("tsMaintenance.Image")));
@@ -102,6 +103,7 @@
             // 
             // tsFind
             // 
+            this.tsFind.BackColor = System.Drawing.Color.Black;
             this.tsFind.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsFind.ForeColor = System.Drawing.Color.White;
             this.tsFind.Image = ((System.Drawing.Image)(resources.GetObject("tsFind.Image")));
@@ -114,6 +116,7 @@
             // 
             // tsUser
             // 
+            this.tsUser.BackColor = System.Drawing.Color.Black;
             this.tsUser.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsUser.ForeColor = System.Drawing.Color.White;
             this.tsUser.Image = ((System.Drawing.Image)(resources.GetObject("tsUser.Image")));
@@ -126,7 +129,7 @@
             // 
             // tsLogin
             // 
-            this.tsLogin.BackColor = System.Drawing.Color.Transparent;
+            this.tsLogin.BackColor = System.Drawing.Color.Black;
             this.tsLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.tsLogin.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsLogin.ForeColor = System.Drawing.SystemColors.Window;
