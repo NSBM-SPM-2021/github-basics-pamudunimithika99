@@ -43,7 +43,7 @@
             // 
             // toolStrip1
             // 
-            this.toolStrip1.BackColor = System.Drawing.Color.SteelBlue;
+            this.toolStrip1.BackColor = System.Drawing.Color.MidnightBlue;
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Left;
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(80, 80);
