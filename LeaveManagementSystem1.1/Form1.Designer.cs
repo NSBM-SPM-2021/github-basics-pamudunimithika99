@@ -138,8 +138,9 @@
             this.tsLogin.Margin = new System.Windows.Forms.Padding(0, 3, 0, 4);
             this.tsLogin.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.tsLogin.Name = "tsLogin";
-            this.tsLogin.Size = new System.Drawing.Size(171, 110);
+            this.tsLogin.Size = new System.Drawing.Size(203, 117);
             this.tsLogin.Text = "Login";
+            this.tsLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsLogin.Click += new System.EventHandler(this.tsLogin_Click);
             // 
             // Form1
