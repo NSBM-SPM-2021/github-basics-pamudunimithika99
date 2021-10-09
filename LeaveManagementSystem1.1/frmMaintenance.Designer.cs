@@ -72,7 +72,7 @@
             // 
             // GroupBox1
             // 
-            this.GroupBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.GroupBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.GroupBox1.Controls.Add(this.btnpositionload);
             this.GroupBox1.Controls.Add(this.dtglistposition);
             this.GroupBox1.Controls.Add(this.npositiondelete);
@@ -80,7 +80,7 @@
             this.GroupBox1.Controls.Add(this.npositionsave);
             this.GroupBox1.Controls.Add(this.Label1);
             this.GroupBox1.Controls.Add(this.txtposition);
-            this.GroupBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GroupBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupBox1.Location = new System.Drawing.Point(18, 20);
             this.GroupBox1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.GroupBox1.Name = "GroupBox1";
@@ -184,7 +184,7 @@
             // 
             // GroupBox2
             // 
-            this.GroupBox2.BackColor = System.Drawing.SystemColors.Window;
+            this.GroupBox2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.GroupBox2.Controls.Add(this.btndeptLoad);
             this.GroupBox2.Controls.Add(this.dtgdeptlist);
             this.GroupBox2.Controls.Add(this.txtdepartment);
@@ -192,7 +192,7 @@
             this.GroupBox2.Controls.Add(this.btndeptDelete);
             this.GroupBox2.Controls.Add(this.btndeptUpdate);
             this.GroupBox2.Controls.Add(this.btndeptSave);
-            this.GroupBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GroupBox2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupBox2.Location = new System.Drawing.Point(519, 20);
             this.GroupBox2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.GroupBox2.Name = "GroupBox2";
