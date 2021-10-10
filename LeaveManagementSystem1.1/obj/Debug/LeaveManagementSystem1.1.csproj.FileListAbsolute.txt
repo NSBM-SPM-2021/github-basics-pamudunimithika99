@@ -191,6 +191,5 @@ C:\my project\github-basics-pamudunimithika99\LeaveManagementSystem1.1\obj\Debug
 C:\my project\github-basics-pamudunimithika99\LeaveManagementSystem1.1\obj\Debug\LeaveManagementSystem1._1.Properties.Resources.resources
 C:\my project\github-basics-pamudunimithika99\LeaveManagementSystem1.1\obj\Debug\LeaveManagementSystem1.1.csproj.GenerateResource.cache
 C:\my project\github-basics-pamudunimithika99\LeaveManagementSystem1.1\obj\Debug\LeaveManagementSystem1.1.csproj.CoreCompileInputs.cache
-C:\my project\github-basics-pamudunimithika99\LeaveManagementSystem1.1\obj\Debug\LeaveManagementSystem1.1.csproj.CopyComplete
 C:\my project\github-basics-pamudunimithika99\LeaveManagementSystem1.1\obj\Debug\LeaveManagementSystem1.1.exe
 C:\my project\github-basics-pamudunimithika99\LeaveManagementSystem1.1\obj\Debug\LeaveManagementSystem1.1.pdb
