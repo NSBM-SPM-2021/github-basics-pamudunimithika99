@@ -557,9 +557,9 @@
             // 
             // Label12
             // 
-            this.Label12.BackColor = System.Drawing.SystemColors.WindowText;
-            this.Label12.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label12.ForeColor = System.Drawing.SystemColors.Window;
+            this.Label12.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.Label12.Font = new System.Drawing.Font("Verdana", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label12.ForeColor = System.Drawing.SystemColors.WindowText;
             this.Label12.Location = new System.Drawing.Point(18, 6);
             this.Label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label12.Name = "Label12";
