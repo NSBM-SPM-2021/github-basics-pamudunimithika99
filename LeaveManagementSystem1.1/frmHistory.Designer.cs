@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHistory));
             this.Label1 = new System.Windows.Forms.Label();
             this.Label46 = new System.Windows.Forms.Label();
             this.Label7 = new System.Windows.Forms.Label();
@@ -82,7 +81,7 @@
             // Label7
             // 
             this.Label7.AutoSize = true;
-            this.Label7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Label7.BackColor = System.Drawing.SystemColors.Info;
             this.Label7.Font = new System.Drawing.Font("Arial Black", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label7.Location = new System.Drawing.Point(853, 39);
             this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -105,11 +104,12 @@
             // Label6
             // 
             this.Label6.AutoSize = true;
-            this.Label6.Font = new System.Drawing.Font("Arial Black", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label6.BackColor = System.Drawing.SystemColors.Info;
+            this.Label6.Font = new System.Drawing.Font("Verdana", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label6.Location = new System.Drawing.Point(8, 14);
             this.Label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(687, 73);
+            this.Label6.Size = new System.Drawing.Size(696, 62);
             this.Label6.TabIndex = 62;
             this.Label6.Text = "List of Approved Leave";
             // 
@@ -332,7 +332,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(1358, 771);
             this.Controls.Add(this.Label7);
             this.Controls.Add(this.txtapprovesearch);
