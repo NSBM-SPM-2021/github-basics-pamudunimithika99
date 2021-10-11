@@ -41,7 +41,7 @@
             // 
             // Cancel
             // 
-            this.Cancel.BackColor = System.Drawing.SystemColors.Info;
+            this.Cancel.BackColor = System.Drawing.SystemColors.MenuBar;
             this.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Cancel.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cancel.Location = new System.Drawing.Point(468, 266);
@@ -54,7 +54,7 @@
             // 
             // OK
             // 
-            this.OK.BackColor = System.Drawing.SystemColors.Info;
+            this.OK.BackColor = System.Drawing.SystemColors.MenuBar;
             this.OK.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OK.Location = new System.Drawing.Point(314, 266);
             this.OK.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -84,8 +84,9 @@
             // 
             // PasswordLabel
             // 
+            this.PasswordLabel.BackColor = System.Drawing.Color.Transparent;
             this.PasswordLabel.Font = new System.Drawing.Font("Verdana", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PasswordLabel.ForeColor = System.Drawing.SystemColors.Window;
+            this.PasswordLabel.ForeColor = System.Drawing.SystemColors.WindowText;
             this.PasswordLabel.Location = new System.Drawing.Point(276, 143);
             this.PasswordLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PasswordLabel.Name = "PasswordLabel";
@@ -96,9 +97,9 @@
             // 
             // UsernameLabel
             // 
-            this.UsernameLabel.BackColor = System.Drawing.SystemColors.WindowText;
+            this.UsernameLabel.BackColor = System.Drawing.Color.Transparent;
             this.UsernameLabel.Font = new System.Drawing.Font("Verdana", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UsernameLabel.ForeColor = System.Drawing.SystemColors.Window;
+            this.UsernameLabel.ForeColor = System.Drawing.SystemColors.WindowText;
             this.UsernameLabel.Location = new System.Drawing.Point(276, 55);
             this.UsernameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.UsernameLabel.Name = "UsernameLabel";
@@ -125,7 +126,7 @@
             this.AcceptButton = this.OK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.WindowText;
+            this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(640, 346);
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.OK);

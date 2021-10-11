@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMaintenance));
             this.dtgdeptlist = new System.Windows.Forms.DataGridView();
             this.GroupBox1 = new System.Windows.Forms.GroupBox();
             this.btnpositionload = new System.Windows.Forms.Button();
@@ -92,7 +91,7 @@
             // 
             // btnpositionload
             // 
-            this.btnpositionload.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnpositionload.BackColor = System.Drawing.SystemColors.Info;
             this.btnpositionload.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpositionload.Location = new System.Drawing.Point(356, 168);
             this.btnpositionload.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -124,7 +123,7 @@
             // 
             // npositiondelete
             // 
-            this.npositiondelete.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.npositiondelete.BackColor = System.Drawing.SystemColors.Info;
             this.npositiondelete.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.npositiondelete.Location = new System.Drawing.Point(356, 315);
             this.npositiondelete.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -137,7 +136,7 @@
             // 
             // npositionupdate
             // 
-            this.npositionupdate.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.npositionupdate.BackColor = System.Drawing.SystemColors.Info;
             this.npositionupdate.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.npositionupdate.Location = new System.Drawing.Point(356, 242);
             this.npositionupdate.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -150,7 +149,7 @@
             // 
             // npositionsave
             // 
-            this.npositionsave.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.npositionsave.BackColor = System.Drawing.SystemColors.Info;
             this.npositionsave.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.npositionsave.Location = new System.Drawing.Point(356, 94);
             this.npositionsave.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -204,7 +203,7 @@
             // 
             // btndeptLoad
             // 
-            this.btndeptLoad.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btndeptLoad.BackColor = System.Drawing.SystemColors.Info;
             this.btndeptLoad.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndeptLoad.Location = new System.Drawing.Point(388, 168);
             this.btndeptLoad.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -238,7 +237,7 @@
             // 
             // btndeptDelete
             // 
-            this.btndeptDelete.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btndeptDelete.BackColor = System.Drawing.SystemColors.Info;
             this.btndeptDelete.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndeptDelete.Location = new System.Drawing.Point(388, 315);
             this.btndeptDelete.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -251,7 +250,7 @@
             // 
             // btndeptUpdate
             // 
-            this.btndeptUpdate.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btndeptUpdate.BackColor = System.Drawing.SystemColors.Info;
             this.btndeptUpdate.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndeptUpdate.Location = new System.Drawing.Point(388, 242);
             this.btndeptUpdate.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -264,7 +263,7 @@
             // 
             // btndeptSave
             // 
-            this.btndeptSave.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btndeptSave.BackColor = System.Drawing.SystemColors.Info;
             this.btndeptSave.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndeptSave.Location = new System.Drawing.Point(388, 94);
             this.btndeptSave.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -279,7 +278,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1044, 594);
             this.Controls.Add(this.GroupBox1);
             this.Controls.Add(this.GroupBox2);
