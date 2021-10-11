@@ -78,7 +78,7 @@
             this.ToolStrip1.Location = new System.Drawing.Point(0, 0);
             this.ToolStrip1.Name = "ToolStrip1";
             this.ToolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
-            this.ToolStrip1.Size = new System.Drawing.Size(938, 57);
+            this.ToolStrip1.Size = new System.Drawing.Size(1321, 57);
             this.ToolStrip1.TabIndex = 7;
             this.ToolStrip1.Text = "ToolStrip1";
             // 
@@ -118,16 +118,16 @@
             this.Panel1.Controls.Add(this.btnUpdate);
             this.Panel1.Controls.Add(this.btndelete);
             this.Panel1.Controls.Add(this.dtglist);
-            this.Panel1.Location = new System.Drawing.Point(18, 323);
+            this.Panel1.Location = new System.Drawing.Point(18, 599);
             this.Panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(907, 328);
+            this.Panel1.Size = new System.Drawing.Size(907, 427);
             this.Panel1.TabIndex = 8;
             // 
             // Button2
             // 
-            this.Button2.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.Button2.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button2.Location = new System.Drawing.Point(780, 189);
             this.Button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Button2.Name = "Button2";
@@ -140,11 +140,11 @@
             // Label9
             // 
             this.Label9.AutoSize = true;
-            this.Label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label9.Location = new System.Drawing.Point(16, 11);
+            this.Label9.Font = new System.Drawing.Font("Verdana", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label9.Location = new System.Drawing.Point(15, 6);
             this.Label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(333, 61);
+            this.Label9.Size = new System.Drawing.Size(419, 67);
             this.Label9.TabIndex = 4;
             this.Label9.Text = "List of Users";
             // 
@@ -175,8 +175,8 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnUpdate.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.Location = new System.Drawing.Point(780, 78);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnUpdate.Name = "btnUpdate";
@@ -188,8 +188,8 @@
             // 
             // btndelete
             // 
-            this.btndelete.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndelete.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btndelete.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndelete.Location = new System.Drawing.Point(780, 134);
             this.btndelete.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btndelete.Name = "btndelete";
@@ -206,7 +206,7 @@
             this.dtglist.AllowUserToResizeColumns = false;
             this.dtglist.AllowUserToResizeRows = false;
             this.dtglist.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dtglist.BackgroundColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.dtglist.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dtglist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtglist.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtglist.Location = new System.Drawing.Point(27, 78);
@@ -215,27 +215,27 @@
             this.dtglist.RowHeadersVisible = false;
             this.dtglist.RowHeadersWidth = 62;
             this.dtglist.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtglist.Size = new System.Drawing.Size(744, 394);
+            this.dtglist.Size = new System.Drawing.Size(744, 331);
             this.dtglist.TabIndex = 0;
             // 
             // Panel2
             // 
-            this.Panel2.BackColor = System.Drawing.SystemColors.Control;
+            this.Panel2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Panel2.Controls.Add(this.Button1);
             this.Panel2.Controls.Add(this.lblTitle);
             this.Panel2.Controls.Add(this.GroupBox1);
             this.Panel2.Controls.Add(this.btnsave);
-            this.Panel2.Location = new System.Drawing.Point(18, 103);
+            this.Panel2.Location = new System.Drawing.Point(18, 73);
             this.Panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Panel2.Name = "Panel2";
-            this.Panel2.Size = new System.Drawing.Size(54, 116);
+            this.Panel2.Size = new System.Drawing.Size(1256, 528);
             this.Panel2.TabIndex = 9;
             // 
             // Button1
             // 
-            this.Button1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.Button1.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button1.Location = new System.Drawing.Point(160, 454);
             this.Button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Button1.Name = "Button1";
@@ -249,7 +249,7 @@
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(16, 9);
+            this.lblTitle.Location = new System.Drawing.Point(15, 11);
             this.lblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(377, 61);
@@ -258,7 +258,7 @@
             // 
             // GroupBox1
             // 
-            this.GroupBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.GroupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.GroupBox1.Controls.Add(this.Label4);
             this.GroupBox1.Controls.Add(this.chkShowpass);
             this.GroupBox1.Controls.Add(this.txtrpass);
@@ -423,8 +423,8 @@
             // 
             // btnsave
             // 
-            this.btnsave.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnsave.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsave.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnsave.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsave.Location = new System.Drawing.Point(16, 454);
             this.btnsave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnsave.Name = "btnsave";
@@ -439,7 +439,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(938, 654);
+            this.ClientSize = new System.Drawing.Size(1321, 1050);
             this.Controls.Add(this.ToolStrip1);
             this.Controls.Add(this.Panel1);
             this.Controls.Add(this.Panel2);
