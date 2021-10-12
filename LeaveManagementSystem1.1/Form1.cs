@@ -31,7 +31,7 @@ namespace LeaveManagementSystem1._1
             tsMaintenance.Enabled = true;
             tsUser.Enabled = true;
             tsLogin.Text = "Logout";
-            tsLogin.Image = Properties.Resources.logout;
+            
 
         }
         public void disabled_menu()
@@ -42,19 +42,11 @@ namespace LeaveManagementSystem1._1
             tsMaintenance.Enabled = false;
             tsUser.Enabled = false;
             tsLogin.Text = "Login";
-            tsLogin.Image = Properties.Resources.login;
+            
 
         }
 
-<<<<<<< HEAD
-        
-=======
-<<<<<<< HEAD
-        
-=======
-       
->>>>>>> main
->>>>>>> main
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
