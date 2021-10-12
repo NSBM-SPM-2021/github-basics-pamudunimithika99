@@ -46,7 +46,11 @@ namespace LeaveManagementSystem1._1
 
         }
 
+<<<<<<< HEAD
+        
+=======
        
+>>>>>>> main
 
         private void Form1_Load(object sender, EventArgs e)
         {
