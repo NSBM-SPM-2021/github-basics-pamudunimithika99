@@ -154,5 +154,10 @@ namespace LeaveManagementSystem1._1
                      " FROM  tbluser  WHERE user_id Like '%" + txtsearch.Text + "%'";
             SQL.Load_DTG(query, dtglist);
         }
+
+        private void lblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
