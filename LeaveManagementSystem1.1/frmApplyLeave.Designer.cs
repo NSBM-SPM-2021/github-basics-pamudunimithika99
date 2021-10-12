@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmApplyLeave));
             this.Label5 = new System.Windows.Forms.Label();
             this.lblcode = new System.Windows.Forms.Label();
             this.txtdepartment = new System.Windows.Forms.TextBox();
@@ -154,7 +153,7 @@
             // 
             // dtpApplied
             // 
-            this.dtpApplied.Location = new System.Drawing.Point(18, 14);
+            this.dtpApplied.Location = new System.Drawing.Point(768, 15);
             this.dtpApplied.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.dtpApplied.Name = "dtpApplied";
             this.dtpApplied.Size = new System.Drawing.Size(397, 26);
@@ -557,13 +556,13 @@
             // 
             // Label12
             // 
-            this.Label12.BackColor = System.Drawing.SystemColors.WindowText;
-            this.Label12.Font = new System.Drawing.Font("Arial Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label12.ForeColor = System.Drawing.SystemColors.Window;
-            this.Label12.Location = new System.Drawing.Point(18, 6);
+            this.Label12.BackColor = System.Drawing.SystemColors.Info;
+            this.Label12.Font = new System.Drawing.Font("Verdana", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label12.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.Label12.Location = new System.Drawing.Point(13, 5);
             this.Label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label12.Name = "Label12";
-            this.Label12.Size = new System.Drawing.Size(842, 49);
+            this.Label12.Size = new System.Drawing.Size(672, 49);
             this.Label12.TabIndex = 47;
             this.Label12.Text = "Add Leave of Absence";
             this.Label12.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -572,7 +571,7 @@
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(14, 23);
+            this.Label1.Location = new System.Drawing.Point(708, 20);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(52, 20);
@@ -581,7 +580,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.button1.BackColor = System.Drawing.SystemColors.Info;
             this.button1.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(39, 742);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -594,7 +593,7 @@
             // 
             // btn_new
             // 
-            this.btn_new.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btn_new.BackColor = System.Drawing.SystemColors.Info;
             this.btn_new.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_new.Location = new System.Drawing.Point(202, 742);
             this.btn_new.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -607,7 +606,7 @@
             // 
             // btnHistory
             // 
-            this.btnHistory.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnHistory.BackColor = System.Drawing.SystemColors.Info;
             this.btnHistory.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHistory.Location = new System.Drawing.Point(366, 742);
             this.btnHistory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -622,7 +621,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1178, 791);
             this.Controls.Add(this.btnHistory);
             this.Controls.Add(this.btn_new);
