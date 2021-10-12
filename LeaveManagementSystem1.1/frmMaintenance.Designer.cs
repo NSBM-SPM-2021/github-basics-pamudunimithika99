@@ -58,17 +58,20 @@
             this.dtgdeptlist.AllowUserToResizeRows = false;
             this.dtgdeptlist.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dtgdeptlist.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dtgdeptlist.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dtgdeptlist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgdeptlist.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dtgdeptlist.Location = new System.Drawing.Point(6, 61);
-            this.dtgdeptlist.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dtgdeptlist.Location = new System.Drawing.Point(9, 94);
+            this.dtgdeptlist.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.dtgdeptlist.Name = "dtgdeptlist";
-            this.dtgdeptlist.Size = new System.Drawing.Size(247, 290);
+            this.dtgdeptlist.RowHeadersWidth = 62;
+            this.dtgdeptlist.Size = new System.Drawing.Size(370, 446);
             this.dtgdeptlist.TabIndex = 1;
             this.dtgdeptlist.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgdeptlist_CellClick);
             // 
             // GroupBox1
             // 
+            this.GroupBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.GroupBox1.Controls.Add(this.btnpositionload);
             this.GroupBox1.Controls.Add(this.dtglistposition);
             this.GroupBox1.Controls.Add(this.npositiondelete);
@@ -76,24 +79,24 @@
             this.GroupBox1.Controls.Add(this.npositionsave);
             this.GroupBox1.Controls.Add(this.Label1);
             this.GroupBox1.Controls.Add(this.txtposition);
-            this.GroupBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GroupBox1.Location = new System.Drawing.Point(12, 13);
-            this.GroupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.GroupBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GroupBox1.Location = new System.Drawing.Point(18, 20);
+            this.GroupBox1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.GroupBox1.Name = "GroupBox1";
-            this.GroupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.GroupBox1.Size = new System.Drawing.Size(318, 359);
+            this.GroupBox1.Padding = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.GroupBox1.Size = new System.Drawing.Size(477, 552);
             this.GroupBox1.TabIndex = 10;
             this.GroupBox1.TabStop = false;
             this.GroupBox1.Text = "Position of the Employee";
             // 
             // btnpositionload
             // 
-            this.btnpositionload.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnpositionload.Font = new System.Drawing.Font("Bodoni MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnpositionload.Location = new System.Drawing.Point(237, 109);
-            this.btnpositionload.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnpositionload.BackColor = System.Drawing.SystemColors.Info;
+            this.btnpositionload.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnpositionload.Location = new System.Drawing.Point(356, 168);
+            this.btnpositionload.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btnpositionload.Name = "btnpositionload";
-            this.btnpositionload.Size = new System.Drawing.Size(75, 40);
+            this.btnpositionload.Size = new System.Drawing.Size(112, 62);
             this.btnpositionload.TabIndex = 6;
             this.btnpositionload.Text = "Load";
             this.btnpositionload.UseVisualStyleBackColor = false;
@@ -107,23 +110,25 @@
             this.dtglistposition.AllowUserToResizeRows = false;
             this.dtglistposition.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dtglistposition.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dtglistposition.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dtglistposition.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtglistposition.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dtglistposition.Location = new System.Drawing.Point(6, 61);
-            this.dtglistposition.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dtglistposition.Location = new System.Drawing.Point(9, 94);
+            this.dtglistposition.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.dtglistposition.Name = "dtglistposition";
-            this.dtglistposition.Size = new System.Drawing.Size(225, 290);
+            this.dtglistposition.RowHeadersWidth = 62;
+            this.dtglistposition.Size = new System.Drawing.Size(338, 446);
             this.dtglistposition.TabIndex = 1;
             this.dtglistposition.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtglistposition_CellClick);
             // 
             // npositiondelete
             // 
-            this.npositiondelete.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.npositiondelete.Font = new System.Drawing.Font("Bodoni MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.npositiondelete.Location = new System.Drawing.Point(237, 205);
-            this.npositiondelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.npositiondelete.BackColor = System.Drawing.SystemColors.Info;
+            this.npositiondelete.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.npositiondelete.Location = new System.Drawing.Point(356, 315);
+            this.npositiondelete.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.npositiondelete.Name = "npositiondelete";
-            this.npositiondelete.Size = new System.Drawing.Size(75, 40);
+            this.npositiondelete.Size = new System.Drawing.Size(112, 62);
             this.npositiondelete.TabIndex = 5;
             this.npositiondelete.Text = "Delete";
             this.npositiondelete.UseVisualStyleBackColor = false;
@@ -131,12 +136,12 @@
             // 
             // npositionupdate
             // 
-            this.npositionupdate.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.npositionupdate.Font = new System.Drawing.Font("Bodoni MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.npositionupdate.Location = new System.Drawing.Point(237, 157);
-            this.npositionupdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.npositionupdate.BackColor = System.Drawing.SystemColors.Info;
+            this.npositionupdate.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.npositionupdate.Location = new System.Drawing.Point(356, 242);
+            this.npositionupdate.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.npositionupdate.Name = "npositionupdate";
-            this.npositionupdate.Size = new System.Drawing.Size(75, 40);
+            this.npositionupdate.Size = new System.Drawing.Size(112, 62);
             this.npositionupdate.TabIndex = 4;
             this.npositionupdate.Text = "Update";
             this.npositionupdate.UseVisualStyleBackColor = false;
@@ -144,12 +149,12 @@
             // 
             // npositionsave
             // 
-            this.npositionsave.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.npositionsave.Font = new System.Drawing.Font("Bodoni MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.npositionsave.Location = new System.Drawing.Point(237, 61);
-            this.npositionsave.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.npositionsave.BackColor = System.Drawing.SystemColors.Info;
+            this.npositionsave.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.npositionsave.Location = new System.Drawing.Point(356, 94);
+            this.npositionsave.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.npositionsave.Name = "npositionsave";
-            this.npositionsave.Size = new System.Drawing.Size(75, 40);
+            this.npositionsave.Size = new System.Drawing.Size(112, 62);
             this.npositionsave.TabIndex = 3;
             this.npositionsave.Text = "Save";
             this.npositionsave.UseVisualStyleBackColor = false;
@@ -159,24 +164,26 @@
             // 
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(6, 30);
+            this.Label1.Location = new System.Drawing.Point(9, 46);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(67, 16);
+            this.Label1.Size = new System.Drawing.Size(100, 24);
             this.Label1.TabIndex = 1;
             this.Label1.Text = "Position :";
             // 
             // txtposition
             // 
             this.txtposition.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtposition.Location = new System.Drawing.Point(79, 27);
-            this.txtposition.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtposition.Location = new System.Drawing.Point(118, 42);
+            this.txtposition.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.txtposition.Multiline = true;
             this.txtposition.Name = "txtposition";
-            this.txtposition.Size = new System.Drawing.Size(233, 26);
+            this.txtposition.Size = new System.Drawing.Size(348, 38);
             this.txtposition.TabIndex = 2;
             // 
             // GroupBox2
             // 
+            this.GroupBox2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.GroupBox2.Controls.Add(this.btndeptLoad);
             this.GroupBox2.Controls.Add(this.dtgdeptlist);
             this.GroupBox2.Controls.Add(this.txtdepartment);
@@ -184,24 +191,24 @@
             this.GroupBox2.Controls.Add(this.btndeptDelete);
             this.GroupBox2.Controls.Add(this.btndeptUpdate);
             this.GroupBox2.Controls.Add(this.btndeptSave);
-            this.GroupBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GroupBox2.Location = new System.Drawing.Point(346, 13);
-            this.GroupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.GroupBox2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GroupBox2.Location = new System.Drawing.Point(519, 20);
+            this.GroupBox2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.GroupBox2.Name = "GroupBox2";
-            this.GroupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.GroupBox2.Size = new System.Drawing.Size(340, 359);
+            this.GroupBox2.Padding = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.GroupBox2.Size = new System.Drawing.Size(510, 552);
             this.GroupBox2.TabIndex = 11;
             this.GroupBox2.TabStop = false;
             this.GroupBox2.Text = "Department of the Employee";
             // 
             // btndeptLoad
             // 
-            this.btndeptLoad.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btndeptLoad.Font = new System.Drawing.Font("Bodoni MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndeptLoad.Location = new System.Drawing.Point(259, 109);
-            this.btndeptLoad.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btndeptLoad.BackColor = System.Drawing.SystemColors.Info;
+            this.btndeptLoad.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndeptLoad.Location = new System.Drawing.Point(388, 168);
+            this.btndeptLoad.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btndeptLoad.Name = "btndeptLoad";
-            this.btndeptLoad.Size = new System.Drawing.Size(75, 40);
+            this.btndeptLoad.Size = new System.Drawing.Size(112, 62);
             this.btndeptLoad.TabIndex = 6;
             this.btndeptLoad.Text = "Load";
             this.btndeptLoad.UseVisualStyleBackColor = false;
@@ -210,31 +217,32 @@
             // txtdepartment
             // 
             this.txtdepartment.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdepartment.Location = new System.Drawing.Point(114, 27);
-            this.txtdepartment.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtdepartment.Location = new System.Drawing.Point(171, 42);
+            this.txtdepartment.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.txtdepartment.Multiline = true;
             this.txtdepartment.Name = "txtdepartment";
-            this.txtdepartment.Size = new System.Drawing.Size(211, 26);
+            this.txtdepartment.Size = new System.Drawing.Size(314, 38);
             this.txtdepartment.TabIndex = 2;
             // 
             // Label2
             // 
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(18, 30);
+            this.Label2.Location = new System.Drawing.Point(27, 46);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(90, 16);
+            this.Label2.Size = new System.Drawing.Size(133, 24);
             this.Label2.TabIndex = 1;
             this.Label2.Text = "Department :";
             // 
             // btndeptDelete
             // 
-            this.btndeptDelete.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btndeptDelete.Font = new System.Drawing.Font("Bodoni MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndeptDelete.Location = new System.Drawing.Point(259, 205);
-            this.btndeptDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btndeptDelete.BackColor = System.Drawing.SystemColors.Info;
+            this.btndeptDelete.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndeptDelete.Location = new System.Drawing.Point(388, 315);
+            this.btndeptDelete.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btndeptDelete.Name = "btndeptDelete";
-            this.btndeptDelete.Size = new System.Drawing.Size(75, 40);
+            this.btndeptDelete.Size = new System.Drawing.Size(112, 62);
             this.btndeptDelete.TabIndex = 5;
             this.btndeptDelete.Text = "Delete";
             this.btndeptDelete.UseVisualStyleBackColor = false;
@@ -242,12 +250,12 @@
             // 
             // btndeptUpdate
             // 
-            this.btndeptUpdate.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btndeptUpdate.Font = new System.Drawing.Font("Bodoni MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndeptUpdate.Location = new System.Drawing.Point(259, 157);
-            this.btndeptUpdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btndeptUpdate.BackColor = System.Drawing.SystemColors.Info;
+            this.btndeptUpdate.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndeptUpdate.Location = new System.Drawing.Point(388, 242);
+            this.btndeptUpdate.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btndeptUpdate.Name = "btndeptUpdate";
-            this.btndeptUpdate.Size = new System.Drawing.Size(75, 40);
+            this.btndeptUpdate.Size = new System.Drawing.Size(112, 62);
             this.btndeptUpdate.TabIndex = 4;
             this.btndeptUpdate.Text = "Update";
             this.btndeptUpdate.UseVisualStyleBackColor = false;
@@ -255,12 +263,12 @@
             // 
             // btndeptSave
             // 
-            this.btndeptSave.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btndeptSave.Font = new System.Drawing.Font("Bodoni MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndeptSave.Location = new System.Drawing.Point(259, 61);
-            this.btndeptSave.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btndeptSave.BackColor = System.Drawing.SystemColors.Info;
+            this.btndeptSave.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndeptSave.Location = new System.Drawing.Point(388, 94);
+            this.btndeptSave.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btndeptSave.Name = "btndeptSave";
-            this.btndeptSave.Size = new System.Drawing.Size(75, 40);
+            this.btndeptSave.Size = new System.Drawing.Size(112, 62);
             this.btndeptSave.TabIndex = 3;
             this.btndeptSave.Text = "Save";
             this.btndeptSave.UseVisualStyleBackColor = false;
@@ -268,11 +276,13 @@
             // 
             // frmMaintenance
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(696, 386);
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.ClientSize = new System.Drawing.Size(1044, 594);
             this.Controls.Add(this.GroupBox1);
             this.Controls.Add(this.GroupBox2);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmMaintenance";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Maintenance Form";

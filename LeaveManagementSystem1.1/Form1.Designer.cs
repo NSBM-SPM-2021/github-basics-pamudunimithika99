@@ -141,6 +141,24 @@
             this.tsLogin.Text = "Login";
             this.tsLogin.Click += new System.EventHandler(this.tsLogin_Click);
             // 
+<<<<<<< HEAD
+=======
+            // timer1
+            // 
+<<<<<<< HEAD
+<<<<<<< HEAD
+            
+=======
+           
+>>>>>>> login
+=======
+<<<<<<< HEAD
+=======
+           
+>>>>>>> main
+>>>>>>> main
+            // 
+>>>>>>> main
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
