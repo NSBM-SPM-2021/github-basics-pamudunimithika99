@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmListofEmployee));
             this.Label7 = new System.Windows.Forms.Label();
             this.txtempsearch = new System.Windows.Forms.TextBox();
             this.Label6 = new System.Windows.Forms.Label();
@@ -45,7 +44,7 @@
             // Label7
             // 
             this.Label7.AutoSize = true;
-            this.Label7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Label7.BackColor = System.Drawing.SystemColors.Info;
             this.Label7.Font = new System.Drawing.Font("Arial Black", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label7.Location = new System.Drawing.Point(18, 6);
             this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -68,7 +67,7 @@
             // Label6
             // 
             this.Label6.AutoSize = true;
-            this.Label6.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.Label6.BackColor = System.Drawing.SystemColors.Info;
             this.Label6.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label6.Location = new System.Drawing.Point(764, 42);
             this.Label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -121,7 +120,7 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.BackColor = System.Drawing.SystemColors.Menu;
+            this.btnEdit.BackColor = System.Drawing.SystemColors.Info;
             this.btnEdit.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.Location = new System.Drawing.Point(382, 700);
             this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -134,7 +133,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.BackColor = System.Drawing.SystemColors.Menu;
+            this.btnDelete.BackColor = System.Drawing.SystemColors.Info;
             this.btnDelete.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.Location = new System.Drawing.Point(526, 700);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -147,7 +146,7 @@
             // 
             // btnPrintStud
             // 
-            this.btnPrintStud.BackColor = System.Drawing.SystemColors.Menu;
+            this.btnPrintStud.BackColor = System.Drawing.SystemColors.Info;
             this.btnPrintStud.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrintStud.Location = new System.Drawing.Point(18, 700);
             this.btnPrintStud.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -160,7 +159,7 @@
             // 
             // btnPrintAll
             // 
-            this.btnPrintAll.BackColor = System.Drawing.SystemColors.Menu;
+            this.btnPrintAll.BackColor = System.Drawing.SystemColors.Info;
             this.btnPrintAll.Font = new System.Drawing.Font("Arial Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrintAll.Location = new System.Drawing.Point(194, 700);
             this.btnPrintAll.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -175,7 +174,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1256, 762);
             this.Controls.Add(this.btnPrintAll);
             this.Controls.Add(this.btnPrintStud);

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmEmployee));
             this.Label34 = new System.Windows.Forms.Label();
             this.txtcode = new System.Windows.Forms.TextBox();
             this.Label20 = new System.Windows.Forms.Label();
@@ -303,7 +302,7 @@
             // 
             // GroupBox10
             // 
-            this.GroupBox10.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.GroupBox10.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.GroupBox10.Controls.Add(this.cbowtype);
             this.GroupBox10.Controls.Add(this.Label3);
             this.GroupBox10.Controls.Add(this.cbodeaprtment);
@@ -482,7 +481,7 @@
             // 
             // GroupBox9
             // 
-            this.GroupBox9.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.GroupBox9.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.GroupBox9.Controls.Add(this.txtcode);
             this.GroupBox9.Controls.Add(this.Label20);
             this.GroupBox9.Controls.Add(this.txtbplace);
@@ -530,7 +529,7 @@
             // emptitle
             // 
             this.emptitle.AutoSize = true;
-            this.emptitle.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.emptitle.BackColor = System.Drawing.SystemColors.Info;
             this.emptitle.Font = new System.Drawing.Font("Arial Black", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.emptitle.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.emptitle.Location = new System.Drawing.Point(18, 6);
@@ -583,7 +582,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1311, 725);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnClear);
